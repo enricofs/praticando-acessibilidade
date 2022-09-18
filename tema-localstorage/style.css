@@ -1,0 +1,36 @@
+html {
+  --background: #fff;
+  --color: #000;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+
+  background: var(--background);
+  color: var(--color);
+}
+
+body.temaDark {
+  --background: #000;
+  --color: #fff;
+}
+
+#btnMudaTema {
+  padding: 0.5em;
+  font-weight: 800;
+}
+
+#btnMudaTema:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+
+  height: 100vh;
+
+  margin: auto;
+}
